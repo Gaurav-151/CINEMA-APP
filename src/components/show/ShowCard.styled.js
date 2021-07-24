@@ -1,7 +1,11 @@
 import styled from 'styled-components';
+
 import { SearchCard } from '../styled';
 
 export const StyledShowCard = styled(SearchCard)`
+  h1 {
+    color: red;
+  }
   .btns {
     margin-top: 15px;
     display: flex;

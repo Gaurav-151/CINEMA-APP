@@ -1,5 +1,6 @@
 import React from 'react';
-import { StyledActorCard } from './ActorCard.Styled';
+
+import { StyledActorCard } from './ActorCard.styled';
 
 const ActorCard = ({ image, name, gender, country, birthday, deathday }) => {
   return (
@@ -16,5 +17,4 @@ const ActorCard = ({ image, name, gender, country, birthday, deathday }) => {
     </StyledActorCard>
   );
 };
-
 export default ActorCard;
